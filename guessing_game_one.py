@@ -22,7 +22,7 @@ def check_guess(rand, guess):
 def get_user_guess():
     guess = input("Enter your guess: ")
 
-    if guess == 'exit':
+    if guess.lower() == 'exit':
         print("Game over.")
         quit()
 
